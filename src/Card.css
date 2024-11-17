@@ -1,0 +1,93 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.cart-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cart-items{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    font-size:x-large;
+    font-style: italic;
+  color: aliceblue;
+  }
+  
+  .item-image  {
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+  
+    
+  }
+
+  
+  .item-details {
+    flex: 1;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  
+  div  {
+    background: no-repeat;
+    background-size: cover;
+
+
+    
+
+    
+    
+
+  
+   /* background-image: url("https://plus.unsplash.com/premium_photo-1712507823153-f1e08a7eeb18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D");  */
+    /* background-color: color-mix(in srgb, lightblue 70%, white); */
+    /* background: linear-gradient(45deg,lightblue,grey,lightblue); */
+  }
+  h2{
+    background-color: orange;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+  }
+  
+
+  #one{
+    background-color: green;
+  }
+  #one:hover{
+    color: black;
+    background-color: yellow;
+  } 
+ App video{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
